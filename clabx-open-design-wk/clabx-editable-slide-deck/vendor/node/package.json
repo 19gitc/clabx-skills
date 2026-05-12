@@ -1,0 +1,14 @@
+{
+  "name": "clabx-editable-slide-deck-bundled-node",
+  "version": "1.0.0",
+  "description": "Bundled fallback Node dependencies for clabx-editable-slide-deck.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

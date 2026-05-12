@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Editable slide deck placeholder frame">
+  <rect width="1280" height="720" fill="#f7f5ef"/>
+  <rect x="120" y="96" width="1040" height="528" rx="18" fill="#ffffff" stroke="#d9d3c7" stroke-width="4"/>
+  <rect x="160" y="144" width="960" height="56" rx="10" fill="#ece7dc"/>
+  <rect x="160" y="248" width="360" height="240" rx="14" fill="#ece7dc"/>
+  <rect x="568" y="248" width="552" height="34" rx="8" fill="#b5402b" opacity=".85"/>
+  <rect x="568" y="314" width="480" height="24" rx="6" fill="#667085" opacity=".35"/>
+  <rect x="568" y="362" width="520" height="24" rx="6" fill="#667085" opacity=".28"/>
+  <rect x="568" y="410" width="430" height="24" rx="6" fill="#667085" opacity=".22"/>
+  <text x="640" y="574" text-anchor="middle" fill="#667085" font-family="Arial, sans-serif" font-size="28">Replace with product screenshot or supplied image</text>
+</svg>

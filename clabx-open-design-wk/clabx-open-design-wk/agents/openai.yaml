@@ -1,0 +1,7 @@
+interface:
+  display_name: "CLABX Open Design WK"
+  short_description: "Full Open Design skill workspace"
+  default_prompt: "Use $clabx-open-design-wk to create a polished design artifact from the bundled Open Design skills, templates, and examples."
+
+policy:
+  allow_implicit_invocation: true
