@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Venture Pitch Deck",
+    "subtitle": "A focused investor narrative",
+    "author": "Clabx",
+    "language": "en-US",
+    "aspect": "16:9"
+  },
+  "theme": {
+    "name": "venture-clean",
+    "background": "F6F8FB",
+    "surface": "FFFFFF",
+    "surfaceAlt": "E9EEF7",
+    "text": "101828",
+    "muted": "667085",
+    "accent": "2454D6",
+    "accent2": "14A38B",
+    "border": "D0D7E2",
+    "fontFace": "Aptos",
+    "displayFontFace": "Aptos Display"
+  },
+  "slides": [
+    { "type": "cover", "kicker": "Investor Deck", "title": "One workflow layer for teams adopting AI agents", "subtitle": "Replace this with the company's literal category and offer." },
+    { "type": "bullets", "title": "Teams want agent leverage, but adoption is stuck in bespoke setup", "bullets": [{ "label": "Fragmented", "text": "Each team configures tools differently." }, { "label": "Untrusted", "text": "Review and permission workflows are unclear." }, { "label": "Unmeasured", "text": "Leaders cannot see where agents help or fail." }] },
+    { "type": "two-column", "title": "The status quo is either manual work or unmanaged automation", "left": { "heading": "Manual", "items": ["Slow throughput", "High coordination cost", "Hard to scale expertise"] }, "right": { "heading": "Unmanaged automation", "items": ["Security review gaps", "Inconsistent quality", "No operational visibility"] } },
+    { "type": "bullets", "title": "The product gives teams a governed agent workspace", "bullets": [{ "label": "Plan", "text": "Turn requests into reviewable execution plans." }, { "label": "Run", "text": "Execute with traceability and human checkpoints." }, { "label": "Measure", "text": "Show adoption, cycle time, and failure modes." }] },
+    { "type": "stats", "title": "Early usage points to a repeatable wedge", "stats": [{ "value": "12", "label": "design partners", "caption": "replace with real count" }, { "value": "38%", "label": "cycle-time drop", "caption": "replace with measured cohort" }, { "value": "$240K", "label": "pipeline", "caption": "replace with CRM source" }], "citation": "Source: replace with real CRM and product analytics" },
+    { "type": "table", "title": "The market expands from one team to the operating layer", "columns": ["Buyer", "Initial use", "Expansion path"], "rows": [["Engineering", "Agentic coding workflow", "SDLC operating metrics"], ["Product", "Spec to implementation", "Roadmap execution visibility"], ["Operations", "Repeatable process automation", "Governed cross-team workflows"]] },
+    { "type": "timeline", "title": "The roadmap turns usage into a platform", "items": [{ "label": "Now", "title": "Team workspace", "text": "Shared execution and review." }, { "label": "Next", "title": "Policy layer", "text": "Permissions, approvals, audit." }, { "label": "Later", "title": "Marketplace", "text": "Reusable skills and workflows." }] },
+    { "type": "bullets", "title": "The business model starts with teams and expands by workflow volume", "bullets": [{ "label": "Seat", "text": "Team subscription for operators and reviewers." }, { "label": "Usage", "text": "Workflow execution volume as expansion driver." }, { "label": "Enterprise", "text": "Governance and audit package." }] },
+    { "type": "stats", "title": "The round funds repeatability", "stats": [{ "value": "$X", "label": "raise", "caption": "replace with target" }, { "value": "18 mo", "label": "runway", "caption": "replace with plan" }, { "value": "3", "label": "hiring lanes", "caption": "product, GTM, infrastructure" }] },
+    { "type": "closing", "title": "The ask is to turn a proven wedge into the team agent operating layer", "bullets": ["Replace with requested check size", "Replace with milestone plan", "Replace with next meeting action"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Technical Sharing Deck",
+    "subtitle": "Architecture, tradeoffs, and rollout plan",
+    "author": "Clabx",
+    "language": "en-US",
+    "aspect": "16:9"
+  },
+  "theme": {
+    "name": "blueprint",
+    "background": "EAF1F8",
+    "surface": "FFFFFF",
+    "surfaceAlt": "D9E7F3",
+    "text": "102033",
+    "muted": "52677A",
+    "accent": "1C5D99",
+    "accent2": "D96C2C",
+    "border": "AFC7DA",
+    "fontFace": "Aptos",
+    "displayFontFace": "Aptos Display"
+  },
+  "slides": [
+    { "type": "cover", "kicker": "Tech Sharing", "title": "The new architecture reduces coordination across services", "subtitle": "Replace with the concrete system and audience." },
+    { "type": "bullets", "title": "The old path coupled three concerns that changed at different speeds", "bullets": [{ "label": "Data", "text": "Schema changes required service changes." }, { "label": "Policy", "text": "Permissions were checked inconsistently." }, { "label": "Delivery", "text": "Operational retries were embedded in business logic." }] },
+    { "type": "two-column", "title": "The redesign separates decision, execution, and observation", "left": { "heading": "Before", "items": ["Inline policy checks", "Synchronous service chain", "Logs as the main debug surface"] }, "right": { "heading": "After", "items": ["Central policy boundary", "Queued execution", "Trace-first observability"] } },
+    { "type": "table", "title": "Tradeoffs are explicit rather than accidental", "columns": ["Choice", "Benefit", "Cost"], "rows": [["Queue boundary", "Retries and backpressure", "Eventual consistency"], ["Policy service", "Single audit point", "New availability dependency"], ["Trace IDs", "Debuggable flows", "More instrumentation work"]] },
+    { "type": "timeline", "title": "Rollout should move one risk boundary at a time", "items": [{ "label": "1", "title": "Shadow", "text": "Run policy decisions without enforcement." }, { "label": "2", "title": "Gate", "text": "Enforce for internal workspaces." }, { "label": "3", "title": "Expand", "text": "Move high-volume paths." }, { "label": "4", "title": "Retire", "text": "Remove old inline checks." }] },
+    { "type": "stats", "title": "Success means fewer incidents and easier debugging", "stats": [{ "value": "<5m", "label": "trace lookup", "caption": "replace with target" }, { "value": "-30%", "label": "retry incidents", "caption": "replace with target" }, { "value": "0", "label": "silent denials", "caption": "replace with SLO" }] },
+    { "type": "quote", "quote": "The goal is not a cleaner diagram; it is a system where failures have one place to be understood.", "attribution": "Engineering principle" },
+    { "type": "closing", "title": "Approve the shadow phase and measure policy drift before enforcement", "bullets": ["Confirm owners", "Ship trace IDs first", "Review shadow results before gate rollout"] }
+  ]
+}

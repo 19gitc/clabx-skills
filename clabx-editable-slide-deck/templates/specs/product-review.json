@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Quarterly Product Review",
+    "subtitle": "Adoption improved; collaboration is the next constraint",
+    "author": "Clabx",
+    "language": "en-US",
+    "aspect": "16:9"
+  },
+  "theme": {
+    "name": "product-studio",
+    "background": "F7F5EF",
+    "surface": "FFFFFF",
+    "surfaceAlt": "ECE7DC",
+    "text": "111827",
+    "muted": "667085",
+    "accent": "B5402B",
+    "accent2": "0B6477",
+    "border": "D9D3C7",
+    "fontFace": "Aptos",
+    "displayFontFace": "Georgia"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Product Review",
+      "title": "Activation improved when the first run became shorter",
+      "subtitle": "A concise readout on adoption, retention, and the next product bets.",
+      "notes": "Frame this as a decision deck, not a status tour."
+    },
+    {
+      "type": "stats",
+      "title": "Three measures moved in the right direction",
+      "subtitle": "The onboarding changes improved early user momentum.",
+      "stats": [
+        { "value": "61%", "label": "activation", "caption": "+14 points quarter over quarter" },
+        { "value": "7 min", "label": "time to first value", "caption": "down from 18 minutes" },
+        { "value": "31%", "label": "team invite rate", "caption": "below the collaboration target" }
+      ],
+      "citation": "Source: product analytics, replace with real source"
+    },
+    {
+      "type": "bullets",
+      "title": "The main friction moved from setup to team rollout",
+      "subtitle": "Individual users now reach value faster, but workspace expansion lags.",
+      "bullets": [
+        { "label": "First value", "text": "Median time to first useful output fell after reducing required setup." },
+        { "label": "Team setup", "text": "Most new workspaces still finish week one with only one active user." },
+        { "label": "Next bet", "text": "Prompt admins to invite a teammate after the first successful workflow." }
+      ],
+      "citation": "Source: replace with cohort report"
+    },
+    {
+      "type": "two-column",
+      "title": "The old onboarding optimized for completeness, not momentum",
+      "left": {
+        "heading": "Before",
+        "items": ["Four required setup screens", "Configuration before first output", "No sample workspace"]
+      },
+      "right": {
+        "heading": "After",
+        "items": ["One required decision", "First output before configuration", "Sample workspace preloaded"]
+      }
+    },
+    {
+      "type": "table",
+      "title": "The expansion path is clear but uneven",
+      "columns": ["Segment", "Signal", "Decision"],
+      "rows": [
+        ["Self-serve", "High activation", "Keep setup short"],
+        ["Team", "Low invite rate", "Add collaboration prompt"],
+        ["Enterprise", "Long security review", "Package trust material"]
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "The next release should push collaboration earlier",
+      "items": [
+        { "label": "Week 1", "title": "Invite moment", "text": "Trigger after first successful output." },
+        { "label": "Week 2", "title": "Shared sample", "text": "Create a team-visible starter workspace." },
+        { "label": "Week 4", "title": "Admin digest", "text": "Show progress and blocked teammates." }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The product now proves value quickly; it needs to prove team value just as clearly.",
+      "attribution": "Decision framing"
+    },
+    {
+      "type": "closing",
+      "kicker": "Decision",
+      "title": "Fund the collaboration prompt as the next activation bet",
+      "subtitle": "The bottleneck has moved from individual setup to team expansion.",
+      "bullets": ["Approve the invite experiment", "Instrument team activation", "Review impact in the next product readout"],
+      "notes": "Close with the decision and the date for review."
+    }
+  ]
+}

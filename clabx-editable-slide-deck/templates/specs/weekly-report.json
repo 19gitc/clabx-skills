@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Weekly Team Report",
+    "subtitle": "Shipped, learned, blocked, next",
+    "author": "Clabx",
+    "language": "en-US",
+    "aspect": "16:9"
+  },
+  "theme": {
+    "name": "minimal-exec",
+    "background": "FAFAF8",
+    "surface": "FFFFFF",
+    "surfaceAlt": "F0F1F2",
+    "text": "111111",
+    "muted": "5E6670",
+    "accent": "1F4E79",
+    "accent2": "8A6A2F",
+    "border": "D8DADD",
+    "fontFace": "Aptos",
+    "displayFontFace": "Georgia"
+  },
+  "slides": [
+    { "type": "cover", "kicker": "Weekly Report", "title": "The team shipped the core path and has one launch blocker left", "subtitle": "Replace with week, team, and date range." },
+    { "type": "stats", "title": "The week moved three operating indicators", "stats": [{ "value": "4", "label": "shipped items", "caption": "replace with real count" }, { "value": "2", "label": "open risks", "caption": "replace with real count" }, { "value": "1", "label": "decision needed", "caption": "replace with owner" }] },
+    { "type": "bullets", "title": "What shipped", "bullets": [{ "label": "Feature", "text": "Replace with shipped feature and user impact." }, { "label": "Fix", "text": "Replace with bug fix and risk removed." }, { "label": "Ops", "text": "Replace with operational improvement." }] },
+    { "type": "table", "title": "Risks are narrow enough to assign", "columns": ["Risk", "Owner", "Next check"], "rows": [["Launch blocker", "Name", "Date"], ["Dependency", "Name", "Date"], ["Decision", "Name", "Date"]] },
+    { "type": "two-column", "title": "The useful learning is where expectation changed", "left": { "heading": "Expected", "items": ["Replace with assumption", "Replace with planned path"] }, "right": { "heading": "Learned", "items": ["Replace with evidence", "Replace with changed plan"] } },
+    { "type": "timeline", "title": "Next week is about reducing launch uncertainty", "items": [{ "label": "Mon", "title": "Confirm scope", "text": "Owner and decision." }, { "label": "Wed", "title": "Resolve blocker", "text": "Demo or test result." }, { "label": "Fri", "title": "Launch readout", "text": "Go/no-go evidence." }] },
+    { "type": "closing", "title": "Decision needed: choose the launch scope by Wednesday", "bullets": ["Option A: ship narrow", "Option B: delay for complete scope", "Owner proposes recommendation"] }
+  ]
+}

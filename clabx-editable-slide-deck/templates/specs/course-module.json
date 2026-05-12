@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Course Module",
+    "subtitle": "Teach one concept with examples and practice",
+    "author": "Clabx",
+    "language": "en-US",
+    "aspect": "16:9"
+  },
+  "theme": {
+    "name": "teaching-light",
+    "background": "FFF8EC",
+    "surface": "FFFFFF",
+    "surfaceAlt": "F7E8CB",
+    "text": "2A2118",
+    "muted": "71665A",
+    "accent": "C55A11",
+    "accent2": "2E7D6B",
+    "border": "E5D0AF",
+    "fontFace": "Aptos",
+    "displayFontFace": "Georgia"
+  },
+  "slides": [
+    { "type": "cover", "kicker": "Course Module", "title": "A useful concept becomes clear when learners can use it", "subtitle": "Replace with lesson title and learner level." },
+    { "type": "bullets", "title": "By the end, learners should be able to do three things", "bullets": [{ "label": "Explain", "text": "State the concept in plain language." }, { "label": "Identify", "text": "Recognize when the concept applies." }, { "label": "Apply", "text": "Use it on a realistic example." }] },
+    { "type": "section", "title": "Start with the problem learners already feel", "subtitle": "A concrete pain creates motivation before definitions." },
+    { "type": "two-column", "title": "The concept separates two ideas learners often mix", "left": { "heading": "Misconception", "items": ["Replace with common confusion", "Show why it feels plausible"] }, "right": { "heading": "Useful model", "items": ["Replace with correct distinction", "Show what decision it improves"] } },
+    { "type": "timeline", "title": "Apply it in four moves", "items": [{ "label": "1", "title": "Observe", "text": "Name the situation." }, { "label": "2", "title": "Classify", "text": "Choose the concept bucket." }, { "label": "3", "title": "Act", "text": "Pick the next move." }, { "label": "4", "title": "Check", "text": "Look for the result." }] },
+    { "type": "table", "title": "Practice works best with immediate feedback", "columns": ["Scenario", "Learner answer", "Feedback"], "rows": [["Example A", "Replace", "Replace"], ["Example B", "Replace", "Replace"], ["Example C", "Replace", "Replace"]] },
+    { "type": "closing", "title": "The takeaway should be usable tomorrow", "bullets": ["Restate the concept", "Give one practice prompt", "Name the next module"] }
+  ]
+}

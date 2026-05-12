@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clabx Editable Slide Deck"
+  short_description: "Create editable PPTX and HTML slide decks"
+  default_prompt: "Use $clabx-editable-slide-deck to turn my content into an editable PowerPoint deck with an optional HTML preview."
